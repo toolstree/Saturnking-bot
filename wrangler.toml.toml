@@ -1,0 +1,14 @@
+name = "saturnking-bot"
+main = "main-cloudflare.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+TIER1_ONLY = "true"
+SOLANA_RPC_URL = "https://api.mainnet-beta.solana.com"
+USDC_MINT = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbzpuhE1pi-0Ha6HqCvf40H1LYpYG6-U-83m_E1oHGeKM0nYD1NX4Bd2Hi6j_W_o4paY/exec"
+GOOGLE_SHEET_SECRET = "saturn_108_king"
+CRON_SECRET = "saturn_108_king"
+
+[triggers]
+crons = ["*/5 * * * *", "*/45 * * * *"]
